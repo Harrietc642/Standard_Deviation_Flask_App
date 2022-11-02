@@ -1,0 +1,27 @@
+Install git on your computer. Put one of your previous assignments (or your whole assignments folder) under revision control.
+
+Initialize a (regular) repository in your project folder
+
+add the files
+
+commit the files
+
+Submit the entire project folder (zipped) including the hidden .git folder inside.
+Initialize
+Initialize a regular git repository.
+
+Score of Initialize,/ 1
+Add
+Add project files to folder and stage them for commit.
+
+Score of Add,/ 1
+Commit
+Commit project files to repository.
+
+Score of Commit,/ 1
+Branch
+Create a new branch, make changes and commit.
+
+Score of Branch,/ 1
+Merge
+Merge the new branch back into the master branch.
