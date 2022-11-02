@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title}}</h2>
+
+<p>You submitted the following values: {{ input_value }}</p>
+
+<p>Which produces a max, average and standard deviation of:</p>
+
+<h3>Average: {{ average_value }}</h3>
+<h3>Max: {{ max_value }}</h3>
+<h3>Standard Deviation: {{ standard_deviation_value }}</h3>
+</form>
+
+{% endblock %}

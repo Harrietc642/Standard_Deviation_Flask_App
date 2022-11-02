@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form method = 'POST' action= '/results'>
+<p style="background-image: url('family.jpg');"></p>
+<table>
+    <p>Welcome to Math Helper:</p>
+    <tr><td>Enter your list of numbers:</td><td><input name="numbers" type="Text" width = '100'></td></tr>
+</table>
+<p>When you're ready, click this button:</p>
+<p><input value='Calculate' type = 'SUBMIT'></p>
+</form>
+
+{% endblock %}
